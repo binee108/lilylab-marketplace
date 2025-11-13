@@ -11,7 +11,10 @@
   "plugins": [
     {
       "name": "nine-step-workflow",
-      "source": "binee108/nine-step-workflow-plugin",
+      "source": {
+        "source": "github",
+        "repo": "binee108/nine-step-workflow-plugin"
+      },
       "description": "Production-ready 9-step development workflow with 12 specialized agents, 18 reusable skills, and comprehensive quality gates for enterprise software development",
       "version": "1.1.0",
       "keywords": [
