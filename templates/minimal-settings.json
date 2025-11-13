@@ -1,0 +1,19 @@
+{
+  "description": "Minimal LilyLab configuration - Basic plugin setup only",
+  "plugins": {
+    "marketplaces": [
+      {
+        "name": "lilylab-marketplace",
+        "source": "binee108/lilylab-marketplace",
+        "enabled": true
+      }
+    ],
+    "installed": [
+      {
+        "name": "nine-step-workflow",
+        "marketplace": "lilylab-marketplace",
+        "enabled": true
+      }
+    ]
+  }
+}

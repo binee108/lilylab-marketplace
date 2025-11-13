@@ -1,0 +1,60 @@
+{
+  "name": "lilylab-marketplace",
+  "description": "LilyLab's official Claude Code plugin marketplace for quantitative research and development workflows",
+  "owner": {
+    "name": "LilyLab",
+    "email": "dev@lilylab.io",
+    "url": "https://github.com/binee108"
+  },
+  "homepage": "https://github.com/binee108/lilylab-marketplace",
+  "repository": "https://github.com/binee108/lilylab-marketplace",
+  "plugins": [
+    {
+      "name": "nine-step-workflow",
+      "source": "binee108/nine-step-workflow-plugin",
+      "description": "Production-ready 9-step development workflow with 12 specialized agents, 18 reusable skills, and comprehensive quality gates for enterprise software development",
+      "version": "1.1.0",
+      "keywords": [
+        "workflow",
+        "agents",
+        "quality-gates",
+        "git-worktree",
+        "development",
+        "planning",
+        "code-review",
+        "testing",
+        "documentation"
+      ],
+      "featured": true
+    }
+  ],
+  "categories": {
+    "workflow": {
+      "name": "Workflow Management",
+      "description": "Tools for managing development workflows and processes",
+      "plugins": ["nine-step-workflow"]
+    },
+    "quality": {
+      "name": "Quality Assurance",
+      "description": "Plugins for code review, testing, and quality gates",
+      "plugins": ["nine-step-workflow"]
+    },
+    "productivity": {
+      "name": "Productivity Tools",
+      "description": "Tools to enhance development productivity",
+      "plugins": ["nine-step-workflow"]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-11-13T00:00:00Z",
+    "pluginCount": 1,
+    "maintainers": [
+      {
+        "name": "binee108",
+        "email": "binee108@example.com",
+        "role": "Lead Maintainer"
+      }
+    ]
+  }
+}
